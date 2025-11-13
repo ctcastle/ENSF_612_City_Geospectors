@@ -11,3 +11,4 @@ Project Setup w/ virtual environment:
 8. (If you want to add a dependency to the project, this can be done by running pip install "your dependency" followed by pip freeze > requirements.txt to install and then update the requirements for everyone else) 
 9. Finally, if you chose a different name for your virtual environment other than "venv", add your virtual environment name into .gitignore file
 
+After this you should be ready to go. Official project work will be done in the City_Geospectors.ipynb file but feel free to make additional notebooks and py files as necessary if you want to experiment with anything. As a general request, lets keep the main notebook free of errors and warnings, this means if you have an unfinished section of code that you want to save either keep it in a separate notebook or on a separate branch. 
