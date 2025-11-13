@@ -4,11 +4,12 @@ import numpy as np
 import wget 
 url = 'https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME=2005-01-23T00:00:00Z&BBOX=50.8265,-114.2768,51.2659,-113.8374&CRS=EPSG:4326&' \
 'LAYERS=MODIS_Terra_CorrectedReflectance_TrueColor,Coastlines_15m&WRAP=day,x&FORMAT=image/jpeg&WIDTH=200&HEIGHT=200&colormaps=,&MARKER=-114.0571,51.0451&ts=1762274844460'
+
 im = wget.download(url,'test.jpg')
 ima = cv2.imread(im)
 cv2.imshow('Original Imagesodiuhag', ima)
 
-image = cv2.imread('snapshot-2005-01-23T00_00_00Z.jpg') 
+image = cv2.imread('test.jpg') 
 
 image_hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
