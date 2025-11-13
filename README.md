@@ -11,4 +11,9 @@ Project Setup w/ virtual environment:
 8. (If you want to add a dependency to the project, this can be done by running pip install "your dependency" followed by pip freeze > requirements.txt to install and then update the requirements for everyone else) 
 9. Finally, if you chose a different name for your virtual environment other than "venv", add your virtual environment name into .gitignore file
 
+Register venv as a Jupyter Kernel with VS code (if you are using something else this guide will be less helpful, you may need to look it up online): 
+1. While your venv is activated run: python -m ipykernel install --user --name=venv --display-name="City Geospectors Environment" (Display name can be whatever)
+2. You may need to restart vs code but afterwards you should be able to select the kernel you want to use by selecting the kernel in the top right corner of your ipynb file
+3. Select City Geospectors Environment 
+
 After this you should be ready to go. Official project work will be done in the City_Geospectors.ipynb file but feel free to make additional notebooks and py files as necessary if you want to experiment with anything. As a general request, lets keep the main notebook free of errors and warnings, this means if you have an unfinished section of code that you want to save either keep it in a separate notebook or on a separate branch. 
