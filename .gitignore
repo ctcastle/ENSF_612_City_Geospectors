@@ -1,3 +1,3 @@
 venv/
-city_images/cleaned/*.jpg
-city_images/processed/*.bmp
+city_images/cleaned/basic_good_image_set/*.jpg
+city_images/processed/basic_good_image_set/*.bmp
