@@ -1,1 +1,3 @@
 venv/
+city_images/cleaned/*
+city_images/processed/*
