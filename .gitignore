@@ -1,0 +1,8 @@
+# Ignore everything
+*
+!.gitignore
+
+# But include this specific file
+!ENSF_612_City_Geospectors/
+!ENSF_612_City_Geospectors/City_Geospectors.ipynb
+
