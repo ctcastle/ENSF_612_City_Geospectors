@@ -1,3 +1,5 @@
 venv/
 city_images/cleaned/basic_good_image_set/*.jpg
 city_images/processed/basic_good_image_set/*.bmp
+.env
+.ipynb_checkpoints
